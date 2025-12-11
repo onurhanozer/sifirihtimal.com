@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Sıfır İhtimal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 40px;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-card {
+            background: var(--bg-card);
+            padding: 40px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--glass-border);
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .email-link {
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0;
+            transition: transform 0.2s;
+        }
+
+        .email-link:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-content">
+        <a href="index.html" class="back-link">← Ana Sayfaya Dön</a>
+
+        <h1>Bize Ulaşın</h1>
+
+        <p>Proje hakkında sorularınız, önerileriniz veya hata bildirimleriniz mi var?<br>Geri bildirimleriniz bizim için
+            çok değerli.</p>
+
+        <div class="contact-card">
+            <h3>E-posta Adresimiz</h3>
+            <a href="mailto:iletisim@sifirihtimal.com" class="email-link">iletisim@sifirihtimal.com</a>
+            <p style="font-size: 0.9rem; margin-top: 15px;">Genellikle 24-48 saat içinde yanıt veriyoruz.</p>
+        </div>
+
+        <div style="margin-top: 50px; opacity: 0.6;">
+            <p>GitHub üzerinden de katkıda bulunabilirsiniz:<br>
+                <a href="https://github.com/onurhanozer/sifirihtimal.com" target="_blank"
+                    style="color: var(--text-secondary);">github.com/onurhanozer/sifirihtimal.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
