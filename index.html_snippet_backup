@@ -1,0 +1,53 @@
+            <section id="simulationDashboard" class="dashboard hidden">
+                <div class="dashboard-content">
+                    <div class="dashboard-left">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="label">Geçen Süre</span>
+                                <span class="value" id="timeElapsed">0 Yıl</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="label">Yapılan Çekiliş</span>
+                                <span class="value" id="drawCount">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="label">Harcanan Para</span>
+                                <span class="value" id="moneySpent">0 ₺</span>
+                            </div>
+                        </div>
+
+                        <!-- Reality Check Section -->
+                        <div id="realityCheck" class="reality-check hidden">
+                            <div class="reality-icon">💸</div>
+                            <div class="reality-content">
+                                <span class="reality-label">KAYBEDİLEN FIRSAT</span>
+                                <div class="reality-value" id="opportunityItem">Hiçbir şey</div>
+                            </div>
+                        </div>
+                        
+                        <div class="status-message" id="statusMessage">
+                            Hala kazanamadınız...
+                        </div>
+                        
+                        <button id="stopBtn" class="action-btn danger">Pes Et</button>
+                    </div>
+
+                    <div class="dashboard-right">
+                        <div class="matrix-panel">
+                            <div class="panel-header">
+                                <span>SİZİN KUPONUNUZ</span>
+                            </div>
+                            <div id="fixedUserNumbers" class="fixed-coupon">
+                                <!-- User numbers here -->
+                            </div>
+                            
+                            <div class="panel-header secondary-header">
+                                <span>ÇEKİLİŞ AKIŞI</span>
+                            </div>
+                            <div id="drawLogStream" class="draw-stream">
+                                <!-- Dynamic rows flowing here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
